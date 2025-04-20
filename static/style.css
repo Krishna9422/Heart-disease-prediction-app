@@ -1,0 +1,163 @@
+/* General body styling */
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: background-color 0.5s ease;
+}
+<<<<<<< SEARCH
+.login form {
+;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+=======
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+<<<<<<< SEARCH
+.login form {
+;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+=======
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Interactive background color change on body hover */
+body:hover, html:hover {
+  background: linear-gradient(135deg, #d0e6f7, #a1c4fd);
+}
+
+/* Container for the form */
+.login {
+  background: #ffffffcc;
+  padding: 60px 50px 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: box-shadow 0.3s ease, background-color 0.5s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Interactive background color change on form hover */
+.login:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  background-color: #f0f8ffcc;
+}
+
+/* Heading style */
+.login h1 {
+  font-family: 'Pacifico', cursive;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  transition: color 0.3s ease;
+}
+
+/* Interactive heading color on hover */
+.login:hover h1 {
+  color: #1a2a4f;
+}
+
+/* Form inputs container to arrange inputs in rows of 2 */
+.login form {
+;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Each input container to take about 48% width for 2 in a row with increased length */
+.login input[type="text"] {
+  width: 48%;
+  padding: 12px 10px;
+  margin-bottom: 20px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #34495e;
+  background-color: #ecf0f1;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Placeholder styling for better visibility */
+.login input[type="text"]::placeholder {
+  color: #7f8c8d;
+  font-weight: 600;
+  opacity: 1;
+}
+
+/* Input focus effect with interactive border and background */
+.login input[type="text"]:focus {
+  border-color: #2980b9;
+  background-color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 8px #2980b9;
+}
+
+/* Button styling */
+.login button {
+  width: 100%;
+  max-width: 700px;
+  padding: 14px 0;
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Button hover effect */
+.login button:hover {
+  background: linear-gradient(45deg, #2ecc71, #27ae60);
+  box-shadow: 0 6px 15px rgba(46, 204, 113, 0.6);
+}
+
+/* Prediction text styling */
+#predi {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #34495e;
+  margin-top: 30px;
+  min-height: 40px;
+  font-size: 1.3em;
+  font-weight: 600;
+  max-width: 700px;
+  text-align: center;
+}
